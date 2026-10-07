@@ -1,0 +1,30 @@
+FSSM-DDI MODEL EVALUATION
+==================================================
+
+Test Samples : 3957
+Test Loss    : 0.4809
+Accuracy     : 84.26%
+Precision    : 82.72%
+Recall       : 84.26%
+F1-Score     : 78.34%
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0     0.8474    0.9922    0.9141      3324
+           1     1.0000    0.0350    0.0676       143
+           2     1.0000    0.0207    0.0406       193
+           3     0.0000    0.0000    0.0000        47
+           4     0.4821    0.1080    0.1765       250
+
+    accuracy                         0.8426      3957
+   macro avg     0.6659    0.2312    0.2397      3957
+weighted avg     0.8272    0.8426    0.7834      3957
+
+
+Confusion Matrix
+[[3298    0    0    0   26]
+ [ 138    5    0    0    0]
+ [ 187    0    4    0    2]
+ [  46    0    0    0    1]
+ [ 223    0    0    0   27]]
