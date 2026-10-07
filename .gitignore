@@ -1,3 +1,4 @@
 venv/
 __pycache__/
 training/embeddings/
+!training/test_embeddings.pt
